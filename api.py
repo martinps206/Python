@@ -1,14 +1,17 @@
 import requests
 
-URL = 'https://httpbin.org/get'
+URL_GET = 'https://httpbin.org/get'
+URL_POST = 'https://httpbin.org/post'
 URL_1 = 'https://httpbin.org/get?name=Martin&password=123456&email=martinps_cc@hotmail.com'
+
+
 
 ######################################
 #response = requests.get(URL)  #GET
 #print(response.text) #str
 #print(type(response.text)) #str
 #print(response.status_code)
-
+#
 #payload = response.json()
 #print(payload.get('origin'))
 #print(response.json()) #dictionary
@@ -39,3 +42,6 @@ if response.status_code == 200:
     payload = response.json()
     print(payload.get('args')) """
 
+response = requests.post(URL_POST)
+
+print(response.text)
