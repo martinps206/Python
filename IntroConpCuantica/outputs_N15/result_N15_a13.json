@@ -1,0 +1,55 @@
+{
+  "N": 15,
+  "a": 13,
+  "t": 8,
+  "dim_phase": 256,
+  "dim_target": 16,
+  "counts": {
+    "0": 507,
+    "64": 529,
+    "128": 494,
+    "192": 518
+  },
+  "estimates": [
+    {
+      "measured": 64,
+      "counts": 529,
+      "phase": 0.25,
+      "fraction": "1/4",
+      "r_candidate": 4,
+      "r_found": 4
+    },
+    {
+      "measured": 192,
+      "counts": 518,
+      "phase": 0.75,
+      "fraction": "3/4",
+      "r_candidate": 4,
+      "r_found": 4
+    },
+    {
+      "measured": 0,
+      "counts": 507,
+      "phase": 0.0,
+      "fraction": "0/1",
+      "r_candidate": 1,
+      "r_found": 4
+    },
+    {
+      "measured": 128,
+      "counts": 494,
+      "phase": 0.5,
+      "fraction": "1/2",
+      "r_candidate": 2,
+      "r_found": 4
+    }
+  ],
+  "factors": {
+    "a": 13,
+    "r": 4,
+    "factors": [
+      3,
+      5
+    ]
+  }
+}

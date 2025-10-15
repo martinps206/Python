@@ -1,0 +1,37 @@
+{
+  "N": 15,
+  "a": 11,
+  "t": 8,
+  "dim_phase": 256,
+  "dim_target": 16,
+  "counts": {
+    "0": 1001,
+    "128": 1047
+  },
+  "estimates": [
+    {
+      "measured": 128,
+      "counts": 1047,
+      "phase": 0.5,
+      "fraction": "1/2",
+      "r_candidate": 2,
+      "r_found": 2
+    },
+    {
+      "measured": 0,
+      "counts": 1001,
+      "phase": 0.0,
+      "fraction": "0/1",
+      "r_candidate": 1,
+      "r_found": 2
+    }
+  ],
+  "factors": {
+    "a": 11,
+    "r": 2,
+    "factors": [
+      5,
+      3
+    ]
+  }
+}
